@@ -8,12 +8,12 @@ require 'pry'
 # }
 
 def select_winner(passengers)
-  #winner = ""
+  winner = ""
 passengers.collect do |suite, name|
   #binding.pry
   if suite == :suite_a && name.start_with?("A")
-    #winner = name
+    winner = name
   end
 end
-#winner
+winner
 end
